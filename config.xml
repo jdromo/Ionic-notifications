@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.myapp785193" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.scio.ionicsns" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>myApp</name>
     <description>
         An Ionic Framework and Cordova project.
@@ -46,4 +46,7 @@
     <plugin name="cordova-plugin-device" spec="~1.1.4" />
     <plugin name="com.phonegap.plugins.PushPlugin" spec="https://github.com/phonegap-build/PushPlugin" />
     <plugin name="cordova-plugin-x-toast" spec="https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git" />
+    <plugin name="phonegap-plugin-push" spec="https://github.com/phonegap/phonegap-plugin-push">
+        <variable name="SENDER_ID" value="791884707880" />
+    </plugin>
 </widget>

@@ -53,6 +53,7 @@ angular.module('starter.controllers', ['ngCordova'])
 })
 
 .controller('notiCtrl', function($scope) {
+  $scope.serverkey = 'AIzaSyDUXQ5QS84j8CwpxOhxSMf8eW70aGfWfdg'
   $scope.deviceId = localStorage.getItem("deviceUUID");
 })
 
