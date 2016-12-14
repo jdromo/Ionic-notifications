@@ -162,7 +162,6 @@ ClientBin/
 www/dist/
 www/lib/
 res/
-resources/
 node_modules/
 plugins/
 platforms/

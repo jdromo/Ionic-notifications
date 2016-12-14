@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "791884707880",
+    "firebase_url": "https://ionic-sns-scio.firebaseio.com",
+    "project_id": "ionic-sns-scio",
+    "storage_bucket": "ionic-sns-scio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791884707880:android:8feae20254cdd149",
+        "android_client_info": {
+          "package_name": "com.scio.ionicsns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791884707880-deod2d5kt8464smuk3lij7be2vh6d9g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHniuZP9oOzQ10HKcXpwqpEapWkUrNhF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
