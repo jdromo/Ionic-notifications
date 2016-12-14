@@ -1,6 +1,13 @@
-<ion-view view-title="Browse">
+<ion-view view-title="Browse" cache-view="false">
   <ion-content>
     <h1>Browse</h1>
     {{deviceId}}
+    <br/>
+    <h1> Registration Id </h1>
+    <p>{{registrationID}}</p>
+        <h1>Notifications </h1>
+    <div ng-repeat="noti in notifications">
+       {{noti}}
+    </div>
   </ion-content>
 </ion-view>

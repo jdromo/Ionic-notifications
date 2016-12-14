@@ -52,9 +52,13 @@ angular.module('starter.controllers', ['ngCordova'])
   ];
 })
 
-.controller('notiCtrl', function($scope) {
-  $scope.serverkey = 'AIzaSyDUXQ5QS84j8CwpxOhxSMf8eW70aGfWfdg'
-  $scope.deviceId = localStorage.getItem("deviceUUID");
+.controller('notiCtrl', function($scope, $rootScope) {
+  init();
+  function init(){
+    $scope.registrationID = $rootScope.registrationID;
+    $scope.deviceId = localStorage.getItem("deviceUUID");
+    $scope.notifications = $rootScope.notifications;
+  }
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {

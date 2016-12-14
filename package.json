@@ -20,13 +20,7 @@
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
     "cordova-plugin-whitelist",
-    "cordova-plugin-console",
-     {
-      "variables": {
-        "SENDER_ID": "XXXXXXX"
-      },
-      "locator": "phonegap-plugin-push"
-    }
+    "cordova-plugin-console"
   ],
   "cordovaPlatforms": []
 }
